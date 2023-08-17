@@ -9,19 +9,26 @@ const Nav = () => {
   }, [location.pathname])
 
   return (
-    <nav className="navbar navbar-expand-sm navbar-light bg-light justify-content-between bb-3 ">
+    <nav className="navbar navbar-expand-sm justify-content-between">
       <div className="container-fluid">
-        <div className="navbar-header">
-          <Link to="/" className="navbar-brand">home</Link>
+        <div className="nav navbar-nav mb-1 mb-lg-0">
+          <Link to="/" className="nav-link">home</Link>
         </div>
         <div className="nav navbar-nav mb-1 mb-lg-0">
-          <Link to="/" className="navbar-brand">bio</Link>
+          <Link to="/bio" className="nav-link">bio</Link>
         </div>
         <div className="nav navbar-nav mb-1 mb-lg-0">
-          <Link to="/" className="navbar-brand">coaching</Link>
+          <Link to="/coaching" className="nav-link">coaching</Link>
         </div>
         <div className="nav navbar-nav mb-1 mb-lg-0">
-          <Link to="/" className="navbar-brand">contact</Link>
+          <Link to="/" className="nav-link">
+            contact
+            <img 
+            src="https://res.cloudinary.com/yl/image/upload/v1692280241/Badminton/IMG_20181020_222950_864_jlpkxn.jpg" 
+            alt="navimg" 
+            className="navimg" 
+            />
+          </Link>
         </div>
       </div>
     </nav>

@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import Carousel from 'react-bootstrap/Carousel'
-// import CarouselCaption from 'react-bootstrap/CarouselCaption'
 import CarouselItem from 'react-bootstrap/CarouselItem'
 
 const Home = () => {
@@ -11,48 +10,33 @@ const Home = () => {
   }
 
   return (
-    <div className="carousel">
+    <div className="carousel-container mt-5 d-flex justify-content-center">
       <Carousel activeIndex={index} onSelect={handleSelect}>
         <CarouselItem>
           <img
-            className="d-block"
-            src="https://res.cloudinary.com/yl/image/upload/v1692188197/Surfing/surf-pic3.jpg"
+            className="d-block carousel-img"
+            src="https://res.cloudinary.com/yl/image/upload/v1692281996/Badminton/2022_UK_LDN_PADDOCKSMEN_VS_WHITEHART_PH0064_owf08n.jpg"
             alt="First slide"
           />
-          {/* <CarouselCaption>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-          </CarouselCaption> */}
         </CarouselItem>
         <CarouselItem>
           <img
-            className="d-block"
-            src="https://res.cloudinary.com/yl/image/upload/v1692188197/Surfing/surf-pic2.jpg"
+            className="d-block carousel-img"
+            src="https://res.cloudinary.com/yl/image/upload/v1692280242/Badminton/IMG-20220515-WA0015_pabfss.jpg"
             alt="Second slide"
           />
-
-          {/* <CarouselCaption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </CarouselCaption> */}
         </CarouselItem>
         <CarouselItem>
           <img
-            className="d-block"
-            src="https://res.cloudinary.com/yl/image/upload/v1692188198/Surfing/surf-pic1.jpg"
+            className="d-block carousel-img"
+            src="https://res.cloudinary.com/yl/image/upload/v1692280276/Badminton/2022_UK_LDN_PADDOCKSMEN_VS_WHITEHART_PH0009_gmxgmq.jpg"
             alt="Third slide"
           />
-
-          {/* <CarouselCaption>
-            <h3>Third slide label</h3>
-            <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            </p>
-          </CarouselCaption> */}
         </CarouselItem>
       </Carousel>
     </div>
   )
+
 }
 
 export default Home

@@ -1,0 +1,13 @@
+nav {
+  .nav-link {
+  color: $grey;
+  }
+  .nav-link:hover {
+    color: $yellow;
+  }
+  .navimg{
+    max-block-size: 50px;
+    margin-left: 10px;
+    border-radius: 50%;
+  }
+}
