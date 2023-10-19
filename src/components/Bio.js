@@ -5,8 +5,7 @@ const Bio = () => {
   return (
     <div className="container">
       <br/>
-      <br/>
-      <h4>About Me</h4>
+      <h1>About Me</h1>
       <br/>
       <br/>
       <div className="row row-cols-1 row-cols-sm-2">
@@ -54,12 +53,15 @@ const Bio = () => {
         </div>
 
         <div className="bio-info col d-flex flex-column justify-content-center">
-          <h4>3</h4>
-          <p>3
-            3
-            3
-            3
-          </p>
+          <h4>Current Sponsor</h4>
+          <ul className="list-unstyled">
+            <li>
+              <a href="https://www.yonex.co.uk/sports/badminton" className="text-decoration-none">Yonex Badminton</a>
+            </li>
+            <li>
+              <a href="https://www.ycsports.com/Badminton" className="text-decoration-none">YC Sports</a>
+            </li>
+          </ul>
         </div>
 
       </div>

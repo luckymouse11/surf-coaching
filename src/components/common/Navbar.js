@@ -14,14 +14,17 @@ const Nav = () => {
         <div className="nav navbar-nav mb-1 mb-lg-0">
           <Link to="/" className="nav-link">home</Link>
         </div>
-        <div className="nav navbar-nav mb-1 mb-lg-0">
+        <div className="navbar-nav mb-1 mb-lg-0">
           <Link to="/bio" className="nav-link">bio</Link>
         </div>
-        <div className="nav navbar-nav mb-1 mb-lg-0">
+        <div className="navbar-nav mb-1 mb-lg-0">
           <Link to="/coaching" className="nav-link">coaching</Link>
         </div>
-        <div className="nav navbar-nav mb-1 mb-lg-0">
-          <Link to="/" className="nav-link">
+        <div className="navbar-nav mb-1 mb-lg-0">
+          <Link to="/stringing" className="nav-link">stringing</Link>
+        </div>
+        <div className="navbar-nav mb-1 mb-lg-0">
+          <Link to="/altcontact" className="nav-link">
             contact
             <img 
             src="https://res.cloudinary.com/yl/image/upload/v1692280241/Badminton/IMG_20181020_222950_864_jlpkxn.jpg" 

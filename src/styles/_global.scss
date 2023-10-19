@@ -1,13 +1,39 @@
 * {
   box-sizing: border-box;
-
 }
 
 html, body {
   height: 100%;
   font-family: 'Raleway', 'helvetica', 'arial', sans-serif;
   font-size: 1rem;
+  line-height: 1.25;
   text-align: center;
   background-color: $black;
   color: $grey;
+}
+
+
+
+
+
+// Contact Page
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+a {
+  color: $grey;
+}
+a:hover {
+  color: $yellow;
+}
+.contact-method:hover {
+  transform: scale(1.5);
 }

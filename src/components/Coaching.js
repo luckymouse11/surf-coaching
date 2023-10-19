@@ -5,8 +5,7 @@ const Bio = () => {
   return (
     <div className="container">
       <br/>
-      <br/>
-      <h4>Coaching</h4>
+      <h1>Coaching</h1>
       <br/>
       <br/>
       <div className="row row-cols-1 row-cols-sm-2">

@@ -7,6 +7,8 @@ import Home from './components/Home'
 import Bio from './components/Bio'
 import Coaching from './components/Coaching'
 import Contact from './components/Contact'
+import AltContact from './components/AltContact'
+import Stringing from './components/Stringing'
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
           <Route path="/bio" element={<Bio />} />
           <Route path="/coaching" element={<Coaching />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/altcontact" element={<AltContact />} />
+          <Route path="/stringing" element={<Stringing />} />
         </Routes>
       </BrowserRouter>
     </div>

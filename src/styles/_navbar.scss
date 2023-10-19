@@ -4,6 +4,7 @@ nav {
   }
   .nav-link:hover {
     color: $yellow;
+    transform: scale(1.5);
   }
   .navimg{
     max-block-size: 50px;

@@ -10,30 +10,36 @@ const Home = () => {
   }
 
   return (
-    <div className="carousel-container mt-5 d-flex justify-content-center">
-      <Carousel activeIndex={index} onSelect={handleSelect}>
-        <CarouselItem>
-          <img
-            className="d-block carousel-img"
-            src="https://res.cloudinary.com/yl/image/upload/v1692281996/Badminton/2022_UK_LDN_PADDOCKSMEN_VS_WHITEHART_PH0064_owf08n.jpg"
-            alt="First slide"
-          />
-        </CarouselItem>
-        <CarouselItem>
-          <img
-            className="d-block carousel-img"
-            src="https://res.cloudinary.com/yl/image/upload/v1692280242/Badminton/IMG-20220515-WA0015_pabfss.jpg"
-            alt="Second slide"
-          />
-        </CarouselItem>
-        <CarouselItem>
-          <img
-            className="d-block carousel-img"
-            src="https://res.cloudinary.com/yl/image/upload/v1692280276/Badminton/2022_UK_LDN_PADDOCKSMEN_VS_WHITEHART_PH0009_gmxgmq.jpg"
-            alt="Third slide"
-          />
-        </CarouselItem>
-      </Carousel>
+    <div className="container">
+      <div className="carousel-container">
+        <br />
+        <br />
+        <div className="mt-5 d-flex justify-content-center">
+          <Carousel activeIndex={index} onSelect={handleSelect}>
+            <CarouselItem>
+              <img
+                className="d-block carousel-img"
+                src="https://res.cloudinary.com/yl/image/upload/v1692281996/Badminton/2022_UK_LDN_PADDOCKSMEN_VS_WHITEHART_PH0064_owf08n.jpg"
+                alt="First slide"
+              />
+            </CarouselItem>
+            <CarouselItem>
+              <img
+                className="d-block carousel-img"
+                src="https://res.cloudinary.com/yl/image/upload/v1692280242/Badminton/IMG-20220515-WA0015_pabfss.jpg"
+                alt="Second slide"
+              />
+            </CarouselItem>
+            <CarouselItem>
+              <img
+                className="d-block carousel-img"
+                src="https://res.cloudinary.com/yl/image/upload/v1692280276/Badminton/2022_UK_LDN_PADDOCKSMEN_VS_WHITEHART_PH0009_gmxgmq.jpg"
+                alt="Third slide"
+              />
+            </CarouselItem>
+          </Carousel>
+        </div>
+      </div>
     </div>
   )
 
